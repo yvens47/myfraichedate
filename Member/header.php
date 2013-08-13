@@ -23,6 +23,11 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         
         <a class="brand" href="#">Project name</a>
         <div class="nav-collapse collapse">
@@ -31,6 +36,11 @@
             <li><a href="#about">Member</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
+          <form class="navbar-form pull-left">
+            
+              <input class="span4" type="text" placeholder="Password" name='q' >
+              
+            </form>
         </div><!--/.nav-collapse -->
       </div>
     </div>
