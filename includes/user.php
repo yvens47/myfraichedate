@@ -52,6 +52,9 @@ class User extends DB {
 		
 		
 }
+function login($username, $password) {
+	
+}
 
 
 }
